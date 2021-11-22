@@ -10,9 +10,9 @@
   },
   "author": "Applitools Team <team@applitools.com> (http://www.applitools.com/)",
   "license": "ISC",
-  "devDependencies": {},
   "dependencies": {
     "@applitools/eyes-cypress": "^3.23.2",
-    "cypress": "^9.0.0"
+    "cypress": "^9.0.0",
+    "typescript": "^4.5.2"
   }
 }
