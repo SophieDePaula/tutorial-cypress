@@ -20,11 +20,31 @@ describe("AppTest", () => {
             target: 'window',
             fully: true
         });
+        cy.eyesCheckWindow({
+            tag: "Login Window",
+            target: 'window',
+            fully: true
+        });
+        cy.eyesCheckWindow({
+            tag: "Login Window",
+            target: 'window',
+            fully: true
+        });
 
         cy.get('#log-in').click()
 
         // Check the app page
         cy.eyesCheckWindow({
+            tag: "App Window",
+            target: 'window',
+            fully: true
+        });
+       cy.eyesCheckWindow({
+            tag: "App Window",
+            target: 'window',
+            fully: true
+        });
+       cy.eyesCheckWindow({
             tag: "App Window",
             target: 'window',
             fully: true
